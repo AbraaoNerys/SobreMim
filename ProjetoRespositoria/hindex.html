@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
   <title>Portfólio</title>
 </head>
 <body>
-  
 
-<nav class="navbar">
-  <div class="container">
-    <a href="#" class="logo">Meu Portifolio</a>
-    <ul class="nav-links">
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Projetos</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-    <div class="menu-toggle" id="menu-toggle">☰</div>
-  </div>
-</nav>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Meu Portfólio</a>
+      <ul class="nav-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+        <button id="dark-mode-toggle" aria-label="Alternar modo escuro">☀️</button>
 
 
-
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </div>
+  </nav>
 
   <div class="title">
     <h1>Sobre Mim</h1>
@@ -45,11 +44,8 @@
   <div class="projects">
     <h2>💻 Projetos</h2>
     <ul>
-      <li>
-        <a href="https://github.com/AbraaoNerys/projeto_calculadora-python.git" target="_blank">
-          Projeto 1 - Calculadora em Python
-        </a>
-      </li>
+      <li><a href="https://github.com/AbraaoNerys/projeto_calculadora-python.git" target="_blank">Projeto 1 - Calculadora em Python</a></li>
+      <li><a href="https://github.com/AbraaoNerys/chatbot.git" target="_blank">Projeto 2 - Backend de Chatbot</a></li>
     </ul>
   </div>
 
@@ -59,84 +55,99 @@
     <h3>1. Fundamentos da Programação</h3>
     <ul>
       <li>✅ Lógica de programação</li>
-      <li>✅ Estruturas de dados (listas, filas, pilhas, mapas)</li>
+      <li>✅ Estruturas de dados</li>
       <li>✅ Algoritmos básicos</li>
       <li>✅ Orientação a Objetos (POO)</li>
     </ul>
 
     <h3>2. Fundamentos do Java</h3>
     <ul>
-      <li>✅ Sintaxe da linguagem Java</li>
-      <li>✅ Tipos de dados, variáveis, operadores</li>
-      <li>✅ Controle de fluxo (if, switch, loops)</li>
-      <li>✅ Métodos e escopos</li>
-      <li>✅ POO com Java: classes, herança, polimorfismo, encapsulamento</li>
-      <li>✅ Manipulação de exceções</li>
-      <li>✅ Coleções (List, Set, Map)</li>
-      <li>✅ API de datas (java.time)</li>
-      <li>✅ Input/Output (I/O)</li>
+      <li>✅ Sintaxe e tipos de dados</li>
+      <li>✅ Controle de fluxo</li>
+      <li>✅ POO com Java</li>
+      <li>✅ Exceções e coleções</li>
+      <li>✅ API de datas e I/O</li>
     </ul>
 
     <h3>3. Ambiente de Desenvolvimento</h3>
     <ul>
-      <li>✅ JDK e JRE</li>
-      <li>✅ IDEs: IntelliJ IDEA / Eclipse</li>
-      <li>✅ Maven ou Gradle</li>
-      <li>✅ Git e GitHub</li>
+      <li>✅ JDK/JRE, IDEs, Maven, Git</li>
     </ul>
 
     <h3>4. POO Avançada</h3>
     <ul>
-      <li>🔄 Interfaces e classes abstratas</li>
-      <li>🔄 Generics</li>
-      <li>🔄 Anotações (Annotations)</li>
-      <li>🔄 Padrões de projeto (Design Patterns)</li>
+      <li>🔄 Interfaces, Generics, Anotações</li>
+      <li>🔄 Design Patterns</li>
     </ul>
 
-    <h3>5. Java para Web (Backend)</h3>
+    <h3>5. Java Web (Backend)</h3>
     <ul>
-      <li>🔄 Servlets e JSP</li>
-      <li>🔄 Spring Core, Boot, MVC, Data JPA, Security</li>
-      <li>🔄 Hibernate (ORM)</li>
-      <li>🔄 Criação e consumo de APIs RESTful</li>
+      <li>🔄 Spring Boot, Spring MVC, JPA, Security</li>
+      <li>🔄 Hibernate, APIs RESTful</li>
     </ul>
 
     <h3>6. Banco de Dados</h3>
     <ul>
-      <li>🔄 SQL com MySQL ou PostgreSQL</li>
-      <li>🔄 NoSQL com MongoDB (opcional)</li>
-      <li>🔄 JDBC</li>
-      <li>🔄 JPA / Hibernate</li>
+      <li>🔄 SQL (MySQL, PostgreSQL), JDBC, Hibernate</li>
     </ul>
 
     <h3>7. Testes</h3>
     <ul>
-      <li>🔄 JUnit</li>
-      <li>🔄 Mockito</li>
-      <li>🔄 Testes de integração com Spring</li>
+      <li>🔄 JUnit, Mockito</li>
     </ul>
 
-    <h3>8. DevOps (Intermediário)</h3>
+    <h3>8. DevOps</h3>
     <ul>
-      <li>🔄 Docker</li>
-      <li>🔄 CI/CD com GitHub Actions ou Jenkins</li>
-      <li>🔄 Deploy em Heroku, Render, AWS ou GCP</li>
+      <li>🔄 Docker, CI/CD, Deploy</li>
     </ul>
 
     <h3>9. Projetos Pessoais</h3>
     <ul>
-      <li>📌 API REST com Spring Boot</li>
-      <li>📌 Integração com banco de dados relacional</li>
-      <li>📌 Autenticação com Spring Security</li>
-      <li>📌 Deploy em ambiente de produção</li>
+      <li>📌 API com Spring Boot, Deploy</li>
     </ul>
   </div>
-      <script href="meuporte.js"></script>
+
+  <div class="roadmap">
+    <h2>🛣️ Roadmap de JavaScript</h2>
+
+    <h3>🟢 Fundamentos (Iniciante)</h3>
+    <ul>
+      <li>O que é JavaScript?</li>
+      <li>Tipos de dados</li>
+      <li>Variáveis: var, let, const</li>
+      <li>Operadores e controle de fluxo</li>
+      <li>Funções e escopo</li>
+      <li>Arrays, objetos, métodos de array</li>
+      <li>DOM e eventos</li>
+    </ul>
+
+    <h3>🟡 Intermediário</h3>
+    <ul>
+      <li>ES6+: let/const, arrow functions, destructuring</li>
+      <li>Funções de ordem superior</li>
+      <li>Promises e async/await</li>
+      <li>Fetch API, manipulação de DOM avançada</li>
+      <li>Classes, módulos, tratamento de erros</li>
+      <li>LocalStorage e debounce/throttle</li>
+    </ul>
+
+    <h3>🟠 Avançado</h3>
+    <ul>
+      <li>Closures, IIFE</li>
+      <li>Prototipagem</li>
+      <li>Event loop e Web APIs</li>
+      <li>JavaScript assíncrono profundo</li>
+      <li>Design Patterns</li>
+      <li>WebSockets, PWA, Web Components</li>
+    </ul>
+  </div>
+
+  <footer class="rodape">
+    <h2>📫 Contato</h2>
+    <p> <strong>Email: abraaonerysfrutuoso123@gmail.com </strong></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abra%C3%A3o-davi-nerys-frutuoso-692583213/" target="_blank">Meu linkedin</a></p>
+  </footer>
+
+  <script src="meuporte.js"></script>
 </body>
-
-<footer>
-  <h2>contato</h2>
-  
-
-</footer>
 </html>
